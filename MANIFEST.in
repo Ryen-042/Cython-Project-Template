@@ -1,0 +1,2 @@
+global-include *.pyi *.pxd
+global-exclude *.pyc *.pyx __pycache__

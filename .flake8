@@ -1,0 +1,38 @@
+[flake8]
+ignore = W293,E702,E501,E401,E261,E251,E241,E221,E203,E202,E201
+
+exclude =
+    .bzr,
+    .direnv,
+    .eggs,
+    .git,
+    .git-rewrite,
+    .hg,
+    .mypy_cache,
+    .nox,
+    .pants.d,
+    .pytype,
+    .ruff_cache,
+    .svn,
+    .tox,
+    .venv,
+    __pypackages__,
+    _build,
+    buck-out,
+    build,
+    dist,
+    node_modules,
+    venv,
+    *.pyc,
+    __pycache__
+
+filename =
+    *.py,
+    *.pyi
+
+accept-encodings = utf-8
+inline-quotes = single
+max-complexity = 12
+max-linenumber = 500
+max-line-length = 120
+multiline-quotes = double

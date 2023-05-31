@@ -1,0 +1,33 @@
+ignore = ["W293","E702","E501","E401"]
+
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    "*.pyc",
+    "__pycache__"
+]
+
+respect-gitignore = true
+
+line-length = 120
+
+target-version = "py311"
